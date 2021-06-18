@@ -15,6 +15,7 @@ jobs:
         username: ftp@casey.berlin
         password: ${{ secrets.ftp_password }}
         server-dir: public_html/jobs/
+        dangerous-clean-slate: true
         dry-run: false
         exclude: .git*
           - **.git*
